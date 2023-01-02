@@ -1,8 +1,12 @@
 import keras
-from keras.models import Sequential,Input,Model
+from keras.models import Sequential
+from tensorflow.python.keras.models import Input
+# from keras.models import Input
+from keras.models import Model
 from keras.layers import Dense, Dropout, Flatten
 from keras.layers import Conv2D, MaxPooling2D
-from keras.layers.advanced_activations import LeakyReLU
+# from keras.layers.advanced_activations import LeakyReLU
+from keras.layers import LeakyReLU
 import tensorflow as tf
 from tensorflow import keras
 import keras.layers as layers
@@ -35,7 +39,11 @@ model.add(layers.Dense(4096, activation="relu"))
 model.add(layers.Dropout(0.5))
 model.add(layers.Dense(10, activation="softmax"))
 model.compile(loss='sparse_categorical_crossentropy', 
-              optimizer=tf.optimizers.SGD(lr=0.001), 
+              optimizer=tf.optimizers.SGD(learning_rate=0.001), 
               metrics=['accuracy'])
 model.summary()
+
+# visualize the architecture of your neural network architecture
+import visualkeras
+visualkeras.layered_view(model)
 
