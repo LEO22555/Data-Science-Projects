@@ -23,7 +23,7 @@ model.fit(X_train,y_train)
 model.score(X_test,y_test)
 
 # use this model to detect the language of a text by taking a user input
-print("remember that this model can only detect the languages mentioned in the dataset")
+print("remember that this model can only detectS the languages mentioned in the dataset")
 user = input("Enter a Text: ")
 data = cv.transform([user]).toarray()
 output = model.predict(data)
