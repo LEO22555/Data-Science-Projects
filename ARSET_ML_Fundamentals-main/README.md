@@ -1,6 +1,11 @@
 # ARSET Fundamentals of Machine Learning (ML) for Earth Science
 
-Temporary repository to add materials for [ARSET Fundamentals of Machine Learning for Earth Science](https://appliedsciences.nasa.gov/join-mission/training/english/arset-fundamentals-machine-learning-earth-science). This repository contains materials for Session 1, 2, and 3.
+Materials for [ARSET Fundamentals of Machine Learning for Earth Science](https://appliedsciences.nasa.gov/join-mission/training/english/arset-fundamentals-machine-learning-earth-science). This repository contains materials for Session 1, 2, and 3.
+
+## Assignments
+
+The assignments listed for each session are practice assignments with questions that will be included in the final assignment after Session 3 conclusion.
+The final assignment will be through a Google Form where you will be answering a set of questions from each one of the Sessions.
 
 ## Session 1 Materials:
 
@@ -15,14 +20,16 @@ Temporary repository to add materials for [ARSET Fundamentals of Machine Learnin
 |---|---|
 | **MODIS EDA** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NASAARSET/ARSET_ML_Fundamentals/blob/main/session2/1_MODIS_EDA_Session2.ipynb) |
 | **MODIS Train & Eval** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NASAARSET/ARSET_ML_Fundamentals/blob/main/session2/2_MODIS_Train_Eval_Session2.ipynb) |
-| **Assignment Session 2** | Day before Session 2 |
+| **Assignment Session 2** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NASAARSET/ARSET_ML_Fundamentals/blob/main/session2/Assignment-Session2.ipynb) |
 
 ## Session 3 Materials:
 
 | Lecture Topic | Interactive Link | 
 |---|---|
 | **MODIS Model Tuning** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NASAARSET/ARSET_ML_Fundamentals/blob/main/session3/1-MODIS-Tuning-Session3.ipynb) |
-| **Assignment Session 3** | Day before Session 3 |
+| **MODIS Explainability** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NASAARSET/ARSET_ML_Fundamentals/blob/main/session3/2-MODIS-Explainability-Session3.ipynb) |
+| **MODIS AutoML** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NASAARSET/ARSET_ML_Fundamentals/blob/main/session3/3_MODIS_AutoML_Session3.ipynb) |
+| **Assignment Session 3** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NASAARSET/ARSET_ML_Fundamentals/blob/main/session3/Assignment-Session3.ipynb) |
 
 ## Additional Resources
 
@@ -82,3 +89,10 @@ If you score at least 80% then only take the **I/O on Text Files** topic. Otherw
 | **Introduction to Numpy** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/astg606/py_materials/blob/master/numpy/introduction_numpy.ipynb) |
 | **Basic Visualization with Matplotlib** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/astg606/py_materials/blob/master/visualization/introduction_matplotlib.ipynb) |
 | **Introduction to Pandas** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/astg606/py_materials/blob/master/pandas/introduction_pandas.ipynb) |
+
+## Additional References
+
+- [awesome-earth-artificial-intelligence](https://github.com/ESIPFed/Awesome-Earth-Artificial-Intelligence)
+- [awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience)
+- [segment-anything-geospatial](https://github.com/opengeos/segment-geospatial)
+
